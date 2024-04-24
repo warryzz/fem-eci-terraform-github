@@ -35,5 +35,12 @@ locals {
       topics             = ["test"]
       visibility         = "public"
     }
+    "fem-eci-test3" = {
+      description        = "Automation for GitHub"
+      gitignore_template = "Terraform"
+      name               = "fem-eci-test3"
+      topics             = ["test"]
+      visibility         = "public"
+    }
   }
 }
